@@ -1,0 +1,146 @@
+[
+  {
+    "autor": "Ivan Salvadori",
+    "titulo": "Análise e Publicação de Dados de Processos Eletrônicos em Organizações Públicas",
+    "ano": "2024",
+    "local": "Anais do XXXIX Simpósio Brasileiro de Bancos de Dados",
+    "pages": "91--103",
+    "url": "https://doi.org/10.5753/sbbd.2024.240561"
+  },
+  {
+    "autor": "Salvadori, Ivan and Huf, Alexis and Siqueira, Frank",
+    "titulo": "Data Linking as a Service : An Infrastructure for Generating and Publishing Linked Data on the Web",
+    "ano": "2020",
+    "local": "2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "pages": "262--271",
+    "url": "https://doi.org/10.1109/COMPSAC48688.2020.00042"
+  },
+  {
+    "autor": "Oliveira, Bruno C N and Huf, Alexis and Salvadori, Ivan and Siqueira, Frank",
+    "titulo": "Semantic Enrichment of Services for Linked Data Provision in SOA",
+    "ano": "2019",
+    "local": "Proceedings of the XV Brazilian Symposium on Information Systems - SBSI\u002719",
+    "pages": "1--8",
+    "url": "https://doi.org/10.1145/3330204.3330258"
+  },
+  {
+    "autor": "Salvadori, Ivan Luiz and Huf, Alexis and Siqueira, Frank",
+    "titulo": "Semantic Data-Driven Microservices",
+    "ano": "2019",
+    "local": "2019 IEEE 43rd Annual Computer Software and Applications Conference (COMPSAC)",
+    "pages": "402--410",
+    "url": "https://doi.org/10.1109/COMPSAC.2019.00065"
+  },
+  {
+    "autor": "Oliveira, Bruno C",
+    "titulo": "and Huf, Alexis and Salvadori, Ivan Luiz and Siqueira, Frank",
+    "ano": "N",
+    "local": "(2019)",
+    "pages": "OntoGenesis: an architecture for automatic semantic enhancement of data services",
+    "url": "https://doi.org/10.1108/IJWIS-04-2018-0020"
+  },
+  {
+    "autor": "Weingartner, Rafael and Martins, Pedro Henrique Pereira and Salvadori, Ivan Luiz and Westphall, Carla Merkle and Siqueira, Frank",
+    "titulo": "Improving OpenID Connect Federation\u0027s Interoperability with Web Semantics",
+    "ano": "2017",
+    "local": "2017 IEEE/ACS 14th International Conference on Computer Systems and Applications (AICCSA)",
+    "pages": "1269--1276",
+    "url": "https://doi.org/10.1109/AICCSA.2017.106"
+  },
+  {
+    "autor": "Salvadori, Ivan and Oliveira, Bruno C N and Huf, Alexis and Inacio, Eduardo C and Siqueira, Frank",
+    "titulo": "An Ontology Alignment Framework for Data-driven Microservices",
+    "ano": "2017",
+    "local": "Proceedings of the 19th International Conference on Information Integration and Web-based Applications and Services - iiWAS \u002717",
+    "pages": "",
+    "url": "https://doi.org/10.1145/3151759.3151793"
+  },
+  {
+    "autor": "Oliveira, Bruno C N and Huf, Alexis and Salvadori, Ivan and Siqueira, Frank",
+    "titulo": "Automatic Semantic Enrichment of Data Services",
+    "ano": "2017",
+    "local": "Proceedings of the 19th International Conference on Information Integration and Web-based Applications and Services - iiWAS \u002717",
+    "pages": "",
+    "url": "https://doi.org/10.1145/3151759.3151783"
+  },
+  {
+    "autor": "Huf, Alexis and Salvadori, Ivan and Siqueira, Frank",
+    "titulo": "Planning and execution of heterogeneous service compositions",
+    "ano": "2017",
+    "local": "2017 IEEE Symposium on Computers and Communications (ISCC)",
+    "pages": "987--993",
+    "url": "https://doi.org/10.1109/ISCC.2017.8024654"
+  },
+  {
+    "autor": "Salvadori, Ivan Luiz and Huf, Alexis and Oliveira, Bruno C",
+    "titulo": "and dos Santos Mello, Ronaldo and Siqueira, Frank",
+    "ano": "N",
+    "local": "(2017)",
+    "pages": "Improving entity linking with ontology alignment for semantic microservices composition",
+    "url": "https://doi.org/10.1108/IJWIS-04-2017-0029"
+  },
+  {
+    "autor": "de Camargo, André and Salvadori, Ivan and Mello, Ronaldo dos Santos and Siqueira, Frank",
+    "titulo": "An architecture to automate performance tests on microservices",
+    "ano": "2016",
+    "local": "Proceedings of the 18th International Conference on Information Integration and Web-based Applications and Services - iiWAS \u002716",
+    "pages": "422--429",
+    "url": "https://doi.org/10.1145/3011141.3011179"
+  },
+  {
+    "autor": "Salvadori, Ivan and Huf, Alexis and Siqueira, Frank",
+    "titulo": "An Agent-based Composition Model for Semantic Microservices",
+    "ano": "2016",
+    "local": "15th International Conference WWW/Internet",
+    "pages": "75--82",
+    "url": ""
+  },
+  {
+    "autor": "Salvadori, Ivan and Huf, Alexis and Mello, Ronaldo dos Santos and Siqueira, Frank",
+    "titulo": "Publishing linked data through semantic microservices composition",
+    "ano": "2016",
+    "local": "Proceedings of the 18th International Conference on Information Integration and Web-based Applications and Services - iiWAS \u002716",
+    "pages": "443--452",
+    "url": "https://doi.org/10.1145/3011141.3011155"
+  },
+  {
+    "autor": "Oliveira, Bruno C N and Salvadori, Ivan and Huf, Alexis and Siqueira, Frank",
+    "titulo": "A platform to enrich, expand and publish linked data of police reports",
+    "ano": "2016",
+    "local": "15th International Conference WWW/Internet",
+    "pages": "111--118",
+    "url": ""
+  },
+  {
+    "autor": "Huf, Alexis and Salvadori, Ivan and Siqueira, Frank",
+    "titulo": "A Service-Oriented Approach for Integrating Broadcast Facilities",
+    "ano": "2016",
+    "local": "2016 IEEE International Conference on Services Computing (SCC)",
+    "pages": "705--712",
+    "url": "https://doi.org/10.1109/SCC.2016.97"
+  },
+  {
+    "autor": "Salvadori, Ivan and Siqueira, Frank",
+    "titulo": "A Maturity Model for Semantic RESTful Web APIs",
+    "ano": "2015",
+    "local": "2015 IEEE International Conference on Web Services",
+    "pages": "703--710",
+    "url": "https://doi.org/10.1109/ICWS.2015.98"
+  },
+  {
+    "autor": "Salvadori, Ivan Luiz and Siqueira, Frank",
+    "titulo": "A Framework for Semantic Description of RESTful Web APIs",
+    "ano": "2014",
+    "local": "2014 IEEE International Conference on Web Services",
+    "pages": "630--637",
+    "url": "https://doi.org/10.1109/ICWS.2014.93"
+  },
+  {
+    "autor": "Salvadori, Ivan and Siqueira, Frank",
+    "titulo": "Desenvolvimento de Web APIs RESTful Semânticas",
+    "ano": "2014",
+    "local": "Linked Open Data Brasil",
+    "pages": "111--126",
+    "url": "https://doi.org/10.13140/RG.2.1.4068.8803"
+  }
+]
