@@ -1,0 +1,125 @@
+2026-04-10T16:56:57.775-03:00  INFO 13196 --- [main] br.edu.utfpr.td.tsi.Main                 : Starting Main using Java 21.0.10 with PID 13196 (C:\Users\diana\OneDrive\Documents\GitHub\atividade2\target\classes started by diana in C:\Users\diana\OneDrive\Documents\GitHub\atividade2)
+2026-04-10T16:56:57.779-03:00  INFO 13196 --- [main] br.edu.utfpr.td.tsi.Main                 : No active profile set, falling back to 1 default profile: "default"
+2026-04-10T16:57:00.192-03:00  WARN 13196 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T16:57:00.193-03:00  WARN 13196 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T16:57:03.087-03:00  INFO 13196 --- [main] br.edu.utfpr.td.tsi.Scraper              : Scraping completed, starting data processing...
+2026-04-10T16:57:04.765-03:00  WARN 13196 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T16:57:04.766-03:00  WARN 13196 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T16:57:15.002-03:00  WARN 13196 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T16:57:15.003-03:00  WARN 13196 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T16:57:23.687-03:00  WARN 13196 --- [main] br.edu.utfpr.td.tsi.Scraper              : URL vazia para a publicação: An Agent-based Composition Model for Semantic Microservices
+2026-04-10T16:57:23.688-03:00  WARN 13196 --- [main] br.edu.utfpr.td.tsi.Scraper              : URL vazia para a publicação: A platform to enrich, expand and publish linked data of police reports
+2026-04-10T16:57:23.689-03:00  WARN 13196 --- [main] br.edu.utfpr.td.tsi.Scraper              : URL vazia para a publicação: Desenvolvimento de Web APIs RESTful Semânticas
+2026-04-10T16:57:23.689-03:00  INFO 13196 --- [main] br.edu.utfpr.td.tsi.Scraper              : Escrita do arquivo JSON concluída.
+2026-04-10T16:57:23.870-03:00  INFO 13196 --- [main] br.edu.utfpr.td.tsi.Main                 : Started Main in 26.465 seconds (process running for 26.765)
+2026-04-10T16:59:34.794-03:00  INFO 19512 --- [main] br.edu.utfpr.td.tsi.Main                 : Starting Main using Java 21.0.10 with PID 19512 (C:\Users\diana\OneDrive\Documents\GitHub\atividade2\target\classes started by diana in C:\Users\diana\OneDrive\Documents\GitHub\atividade2)
+2026-04-10T16:59:34.795-03:00  INFO 19512 --- [main] br.edu.utfpr.td.tsi.Main                 : No active profile set, falling back to 1 default profile: "default"
+2026-04-10T16:59:37.267-03:00  WARN 19512 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T16:59:37.267-03:00  WARN 19512 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T16:59:38.974-03:00  INFO 19512 --- [main] br.edu.utfpr.td.tsi.Scraper              : Scraping completed, starting data processing...
+2026-04-10T16:59:40.535-03:00  WARN 19512 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T16:59:40.537-03:00  WARN 19512 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T16:59:56.470-03:00  WARN 19512 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scraper': Invocation of init method failed
+2026-04-10T16:59:56.483-03:00  INFO 19512 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-10T16:59:56.517-03:00 ERROR 19512 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scraper': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at br.edu.utfpr.td.tsi.Main.main(Main.java:9) ~[classes/:na]
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.className: abstract-text-content (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.14.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230) ~[selenium-support-4.14.1.jar:na]
+	at br.edu.utfpr.td.tsi.Scraper.scrapPublications(Scraper.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 17 common frames omitted
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".abstract\-text\-content"}
+  (Session info: chrome=147.0.7727.55)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65bb60dfb3a106987e2120b10cf26e10, findElement {using=class name, value=abstract-text-content}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\diana\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49948}, goog:processID: 34836, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49948/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65bb60dfb3a106987e2120b10cf26e10
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353) ~[selenium-remote-driver-4.14.1.jar:na]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171) ~[selenium-support-4.14.1.jar:na]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168) ~[selenium-support-4.14.1.jar:na]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205) ~[selenium-support-4.14.1.jar:na]
+	... 23 common frames omitted
+
+2026-04-10T17:00:31.587-03:00  INFO 31676 --- [main] br.edu.utfpr.td.tsi.Main                 : Starting Main using Java 21.0.10 with PID 31676 (C:\Users\diana\OneDrive\Documents\GitHub\atividade2\target\classes started by diana in C:\Users\diana\OneDrive\Documents\GitHub\atividade2)
+2026-04-10T17:00:31.588-03:00  INFO 31676 --- [main] br.edu.utfpr.td.tsi.Main                 : No active profile set, falling back to 1 default profile: "default"
+2026-04-10T17:00:34.026-03:00  WARN 31676 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T17:00:34.026-03:00  WARN 31676 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T17:00:36.919-03:00  INFO 31676 --- [main] br.edu.utfpr.td.tsi.Scraper              : Scraping completed, starting data processing...
+2026-04-10T17:00:38.563-03:00  WARN 31676 --- [main] o.o.selenium.devtools.CdpVersionFinder   : Unable to find CDP implementation matching 147
+2026-04-10T17:00:38.563-03:00  WARN 31676 --- [main] o.o.selenium.chromium.ChromiumDriver     : Unable to find version of CDP to use for 147.0.7727.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-04-10T17:00:41.905-03:00  WARN 31676 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scraper': Invocation of init method failed
+2026-04-10T17:00:41.912-03:00  INFO 31676 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-10T17:00:41.939-03:00 ERROR 31676 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scraper': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at br.edu.utfpr.td.tsi.Main.main(Main.java:9) ~[classes/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.jsoup.nodes.Element.select(String)" because "abstElement" is null
+	at br.edu.utfpr.td.tsi.Scraper.scrapPublications(Scraper.java:85) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 17 common frames omitted
+

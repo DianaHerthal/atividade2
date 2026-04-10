@@ -10,9 +10,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -53,20 +51,20 @@ public class Scraper {
             String keyWords = "";
             if (url.isEmpty() || url.equals("https://doi.org/10.13140/RG.2.1.4068.8803")) {
                 logger.atLevel(Level.WARN).setMessage("URL vazia para a publicação: " + titulo).log();
-            } else if (url.contains("COMPSAC") || url.contains("AICCSA") || url.contains("ICWS") || url.contains("ISCC") || url.contains("SCC")){
-                driver = new ChromeDriver();
-                driver.get(url);
-                wait = new WebDriverWait(driver, Duration.ofSeconds(15));  
-                wait.until(ExpectedConditions.presenceOfElementLocated(By.className("abstract-text-content")));
-                WebElement btnKeywords = driver.findElement(By.id("keywords"));
-                ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btnKeywords);
-                Document compDoc = Jsoup.parse(driver.getPageSource());
-                driver.quit();
-                compAbstract = compDoc.select(".abstract-text-content").text();
-                Elements compkeywords = compDoc.select("ul.u-mt-1 a");
-                for (Element keyword : compkeywords) {
-                    keyWords = keyWords + keyword.select("a").text() + "; ";
-                }
+            // } else if (url.contains("COMPSAC") || url.contains("AICCSA") || url.contains("ICWS") || url.contains("ISCC") || url.contains("SCC")){
+            //     driver = new ChromeDriver();
+            //     driver.get(url);
+            //     wait = new WebDriverWait(driver, Duration.ofSeconds(15));  
+            //     wait.until(ExpectedConditions.presenceOfElementLocated(By.className("abstract-text-content")));
+            //     WebElement btnKeywords = driver.findElement(By.id("keywords"));
+            //     ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btnKeywords);
+            //     Document compDoc = Jsoup.parse(driver.getPageSource());
+            //     driver.quit();
+            //     compAbstract = compDoc.select(".abstract-text-content").text();
+            //     Elements compkeywords = compDoc.select("ul.u-mt-1 a");
+            //     for (Element keyword : compkeywords) {
+            //         keyWords = keyWords + keyword.select("a").text() + "; ";
+            //     }
             } else if (url.contains("sbbd")){
                 Document compDoc = null;
                 try {
@@ -78,17 +76,17 @@ public class Scraper {
                 compAbstract = compDoc.selectFirst("div.item.abstract").text().replace("Resumo ", "");         
                 Element keyWordsDiv = compDoc.selectFirst("div.item.keywords");
                 keyWords = keyWordsDiv.select("span.value").text();
-            } else if (url.equals("https://doi.org/10.1145/3330204.3330258") || url.equals("https://doi.org/10.1145/3011141.3011155") || url.equals("https://doi.org/10.1145/3151759.3151793") || url.equals("https://doi.org/10.1145/3151759.3151783") || url.equals("https://doi.org/10.1145/3011141.3011179") ){
-                driver = new ChromeDriver();
-                driver.get(url);
-                Document compDoc = Jsoup.parse(driver.getPageSource());
-                driver.quit();
-                Element abstElement = compDoc.selectFirst("section#abstract");
-                compAbstract = abstElement.select("div[role=paragraph]").text();
-                Elements keyWordsDiv = compDoc.select("div.article__index-terms a");
-                for (Element keyword : keyWordsDiv) {
-                    keyWords = keyWords + keyword.select("a").text() + "; ";
-                }
+            // } else if (url.equals("https://doi.org/10.1145/3330204.3330258") || url.equals("https://doi.org/10.1145/3011141.3011155") || url.equals("https://doi.org/10.1145/3151759.3151793") || url.equals("https://doi.org/10.1145/3151759.3151783") || url.equals("https://doi.org/10.1145/3011141.3011179") ){
+            //     driver = new ChromeDriver();
+            //     driver.get(url);
+            //     Document compDoc = Jsoup.parse(driver.getPageSource());
+            //     driver.quit();
+            //     Element abstElement = compDoc.selectFirst("section#abstract");
+            //     compAbstract = abstElement.select("div[role=paragraph]").text();
+            //     Elements keyWordsDiv = compDoc.select("div.article__index-terms a");
+            //     for (Element keyword : keyWordsDiv) {
+            //         keyWords = keyWords + keyword.select("a").text() + "; ";
+            //     }
             } else if (url.contains("IJWIS")) {
                 driver = new ChromeDriver();
                 driver.get(url);
